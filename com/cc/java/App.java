@@ -7,11 +7,15 @@ public class App {
     Queen queen = new Queen();
     Worker worker = new Worker();
     Drone drone = new Drone();
+    // HoneyBee hb = new HoneyBee();
 
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+        // pollObj(hb);
  
+        // HoneyBee bee = new HoneyBee();
+        // output(bee.doYourJob());
     }
 
     private static void pollObj(HoneyBee bee) {
